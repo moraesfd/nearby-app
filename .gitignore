@@ -1,0 +1,28 @@
+# Global Ignored Files
+node_modules/
+.DS_Store
+*.log
+*.lock
+*.iml
+Thumbs.db
+
+# Environment Files
+.env
+*.env
+
+# Specific to "nearby" (React Native / Expo)
+nearby/.expo/
+nearby/.expo-shared/
+nearby/web-build/
+nearby/android/
+nearby/ios/
+nearby/build/
+nearby/*.keystore
+nearby/*.apk
+nearby/*.aab
+
+# Specific to "api" (Node.js / Prisma)
+api/prisma/migrations/
+api/prisma/.env
+api/prisma/.db/
+api/prisma/*.db
